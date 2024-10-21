@@ -1,0 +1,96 @@
+{
+    "George Mason University": {
+    "institute":"George Mason University",
+    "image":"GMULogo.jpeg",
+    "degree": "Master of Science in Computer Science",
+    "GPA": "3.60",
+    "location": "Fairfax, Virginia",
+    "years": "Aug. 2021– May 2023"
+    },
+    "Thiagarajar College of Engineering": {
+    "institute":"Thiagarajar College of Engineering",
+    "image":"TCELogo.png",
+    "degree": "Bachelor of Engineering in Electrical and Electronics Engineering",
+    "GPA": "3.43",
+    "location": "Madurai, Tamil Nadu, India",
+    "years": "July 2013– Apr. 2017"
+    },
+    "Bayer AG (Contract)": {
+    "organization":"Bayer AG",
+    "image":"BayerLogo.jpeg",
+    "role": "Software Engineer",
+    "years": "July 2023– present",
+    "location": "USA",
+    "responsibilities": [
+        "Architected and developed sophisticated medical device applications using the MEAN stack (MongoDB, Express.js, Angular, Node.js), ensuring application reliability through comprehensive testing (Karma, Jasmine, Jest) and TypeScript implementation.",
+        "Designed and implemented REST APIs and WebSockets for seamless data exchange between the UI and server, facilitating the adoption of HL7 and DICOM protocols to ensure interoperability across medical device components and with external servers.",
+        "Led infrastructure migration to AWS (MongoDB Atlas, ECS, EKS) to enhance scalability and reliability, and automated build and deployment systems. Automated UI testing using Python and Selenium.",
+        "Employed Agile SDLC practices, including sprint planning and CI/CD pipelines, using tools like Jenkins for continuous integration and deployment.",
+        "Architected and designed new features and updated existing ones for a second project using C#, .NET, and XAML, ensuring alignment with product requirements and regulatory standards. Contributed to the entire development lifecycle, including testing, verification, validation, and product approval processes."
+    ]
+    },
+    "Interco Trading Co.": {
+    "organization":"Interco Trading Co.",
+    "image":"IntercoLogo.jpeg",
+    "role": "Software Engineer Intern",
+    "years": "May 2022– August 2022",
+    "location": "USA",
+    "responsibilities": [
+        "Assigned to create a custom dashboard to compare SEO tool data with Google Analytics data, addressing the company’s challenge of aggregating and analyzing data from different sources. Utilized Python and its libraries for data import from Google Analytics, performing validation and processing, and subsequently pushing it into MariaDB.",
+        "Designed and developed a web application as microservices utilizing React JS with Redux for front-end, Spring Framework (Restful API), Hibernate and MariaDB relational database for back-end. Tested the application using JUnit and Mockito frameworks.",
+        "The dashboard significantly improved the company’s ability to track and optimize website performance, leading to increased organic traffic, improved search engine rankings, and higher conversion rates.",
+        "Successfully developed, tested, and deployed the application, leveraging skills in full-stack development, data integration and analysis, API development, data visualization, and project management."
+    ]
+    },
+    "TATA Consultancy Services": {
+    "organization":"TATA Consultancy Services",
+    "image":"TCSLogo.png",
+    "role": "Software Engineer",
+    "years": "June 2017– May 2021",
+    "location": "India",
+    "responsibilities": [
+        "Tasked with contributing to the full life cycle software development of an inventory management module for an automobile client, addressing their need for an efficient solution for inventory, supply chain, and logistics processes.",
+        "Developed a Java-based backend using Spring Boot, Hibernate and PostgreSQL DBMS, and a user-friendly frontend using React JS, ensuring seamless integration with the existing ERP application. Performed unit testing using JUnit and Mockito.",
+        "The software resulted in significant cost savings and time efficiencies, including a 7% reduction in overall SCM expenses and saving 8 hours of work time per month for supply chain and logistics coordinators.",
+        "Applied skills in Java, Spring Boot, Hibernate, React JS, RESTful APIs, Postgres, JUnit, Mockito, and AWS CodeDeploy.",
+        "Designed the lane maintenance, battery management, and pedestrian detection systems ADAS features.",
+        "Utilized Model-Based Design methodology for building, testing, and debugging the software using MATLAB and SIMULINK."
+    ]
+    },
+    "Shopping Cart": {
+        "project_name": "Shopping Cart",
+        "image":"ShpAppLogo.png",
+        "tech_stack": ["Angular, Spring Boot, MySQL, Docker, Kubernetes, Jenkins, Argo CD"],
+        "description": "Developed a fully functional online shopping cart enabling seamless product browsing, cart management, and user authentication. The successful implementation of CI/CD pipelines facilitated hassle-free updates and deployments."
+    },
+    "Sporting Almanac": {
+        "project_name": "Sporting Almanac",
+        "image":"SportsAlmanacLogo.webp",
+        "tech_stack": ["React JS, Spring Framework, MySQL, AWS EC2"],
+        "description": "Created an interactive platform for sports enthusiasts, providing easy access to sports-related information and historical data through RESTful APIs."
+    },
+    "Cardiac Problem Prediction": {
+        "project_name": "Cardiac Problem Prediction",
+        "image":"CPPLogo.webp",
+        "tech_stack": ["Python, Logistic Regression"],
+        "description": "Designed a predictive model for cardiac arrest using Logistic Regression, demonstrating impressive performance in assessing the possibility of cardiac arrest, measured by accuracy, precision, recall, and F1 score."
+    },
+    "Shop Floor Inventory Management System": {
+        "project_name": "Shop Floor Inventory Management System",
+        "image":"InvMgmtLogo.webp",
+        "tech_stack": ["Java, HTML, CSS, MySQL, AWS EC2"],
+        "description": "Developed an efficient inventory management system for shop floor tracking of parts at various assembly line stages."
+    },
+    "Voice-Controlled Wheelchair": {
+        "project_name": "Voice-Controlled Wheelchair",
+        "image":"VCWLogo.webp",
+        "tech_stack": ["Arduino, Embedded C"],
+        "description": "Designed a voice-controlled wheelchair with obstacle detection for safe navigation, responding to voice commands and effectively detecting and avoiding obstacles."
+    },
+    "Implementation of MuCOT": {
+        "project_name": "Implementation of MuCOT",
+        "image":"NLPLogo.webp",
+        "tech_stack": ["Python, PyTorch, mBERT"],
+        "description": "Developed the Multilingual Contrastive Training (MuCOT) project to enhance the cross-lingual performance of the mBERT transformer model, achieving improved accuracy and performance in multilingual text classification tasks."
+    }
+  } 
