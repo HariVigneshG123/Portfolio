@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import Education from './Education/Education';
 import Projects from './Projects/Projects';
@@ -9,14 +8,13 @@ import SideRibbon from './SideRibbon/SideRibbon';
 function App() {
   return (
     <div className="Appovrl">
-      <div>
+      <div className='AppSideBar'>
         <SideRibbon/>
       </div>
       <div className="App">
         <Education/>
         <Work/>
         <Projects/>
-        {/* <SocialAndContact/> */}
       </div>
     </div>
   );
