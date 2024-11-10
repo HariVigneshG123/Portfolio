@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.63100e6b.css",
+    "main.js": "/Portfolio/static/js/main.9b89dc16.js",
+    "static/js/453.6d0e4ec0.chunk.js": "/Portfolio/static/js/453.6d0e4ec0.chunk.js",
+    "static/media/VCWLogo.webp": "/Portfolio/static/media/VCWLogo.1755d65b41c8f353330b.webp",
+    "static/media/ShpAppLogo.png": "/Portfolio/static/media/ShpAppLogo.5fb7ebaa92b708551248.png",
+    "static/media/ShpAppLogo2.png": "/Portfolio/static/media/ShpAppLogo2.c7d3f1b2f630e490ad90.png",
+    "static/media/CPPLogo.webp": "/Portfolio/static/media/CPPLogo.f0b41c87ea4c9eff5a8b.webp",
+    "static/media/Pic.jpg": "/Portfolio/static/media/Pic.83efa9fe3d3a5766eb93.jpg",
+    "static/media/SportsAlmanacLogo.webp": "/Portfolio/static/media/SportsAlmanacLogo.c7d1dbd60352808922eb.webp",
+    "static/media/TCELogo.png": "/Portfolio/static/media/TCELogo.fbd1d4291b158e4aedff.png",
+    "static/media/BayerLogo.jpeg": "/Portfolio/static/media/BayerLogo.a089241dbbddcdf13320.jpeg",
+    "static/media/github.png": "/Portfolio/static/media/github.e7c7236098255283fced.png",
+    "static/media/NLPLogo.webp": "/Portfolio/static/media/NLPLogo.36eded348a99432d5116.webp",
+    "static/media/InvMgmtLogo.webp": "/Portfolio/static/media/InvMgmtLogo.f2e420fbdf320373b62e.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.63100e6b.css.map": "/Portfolio/static/css/main.63100e6b.css.map",
+    "main.9b89dc16.js.map": "/Portfolio/static/js/main.9b89dc16.js.map",
+    "453.6d0e4ec0.chunk.js.map": "/Portfolio/static/js/453.6d0e4ec0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63100e6b.css",
+    "static/js/main.9b89dc16.js"
+  ]
+}
