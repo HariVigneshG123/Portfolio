@@ -1,0 +1,30 @@
+.Home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeBody{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vm;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+.Bio {
+    width: 30vw;
+    height: 15vh;
+    font-size: 20px;
+}
+
+.Pic {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}

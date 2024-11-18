@@ -22,8 +22,9 @@
 } */
 
 .sideRibbonProfilePicDim {
-    width : 250px;
-    height: 250px;
-    object-fit: cover; /* Ensures the image fills the shape */
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
     border-radius: 50%;
 }
