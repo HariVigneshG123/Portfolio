@@ -1,0 +1,36 @@
+.ContactFormContainer {
+    width: 100%;
+    /* min-height: 50vh; */
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+    min-height: 60vh;
+    align-self: center; /* centers only the form; headings and text stay left */
+    justify-content: center ;
+}
+
+.ContactFormButtonSection {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+}
+
+.ContactFormButton {
+    background-color: black;
+    color: white;
+}
+
+textarea {
+    min-height: 15vh;
+}
+
+input {
+    height: 3vh;
+}

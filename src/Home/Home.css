@@ -1,30 +1,71 @@
 .Home {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
+    min-height: 95vh;
+    width: 100vw;
 }
 
 .HomeBody{
     display: flex;
     flex-direction: column;
-    height: 90vh;
-    width: 100vm;
     align-items: center;
     justify-content: center;
-    padding-right: 40px;
+    gap: 2rem;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: clamp(300px, 60vw, 900px);
+    box-sizing: border-box;
+    height: auto;
 }
 
 .Bio {
-    width: 30vw;
-    height: 15vh;
-    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: clamp(0.85rem, 0.7rem + 0.5vmin, 1.1rem);
+}
+
+.HomeBody h1 {
+    margin: 0;
+    text-align: center;
+    font-size: clamp(1.25rem, 0.8rem + 2vmin, 2.5rem);
+}
+
+.Summary {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 70%;
+    max-width: 70%;
 }
 
 .Pic {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfileImage {
     width: 100%;
-    max-width: 450px;
-    height: auto;
+    max-width: clamp(120px, 25vmin, 250px);
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 50%;
+}
+
+/* Stack photo above text on narrow screens */
+@media (max-width: 600px) {
+    .Bio {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .Summary,
+    .Pic {
+        width: 100%;
+        max-width: 100%;
+    }
 }

@@ -8,22 +8,20 @@ function Home() {
     return (
         <div className='Home'>
             <div className='HomeBody'>
-                <h1 style={{fontSize: large}}>Harivignesh Gomathi Sankara Guru</h1>
+                <div>
+                    <h1>Harivignesh Gomathi Sankara Guru</h1>
+                </div>
+            
                 <div className='Bio'>
-                    <p>
-                        <i>
-                        {"Wassup ... ????"}
-                        <br />
-                        <br />
-                        {summaryPara1}
-                        <br />
-                        <br />
-                        {summaryPara2}
-                        </i>
-                    </p>
+                     <div className='Summary'>
+                        <span>  {summaryPara1}  </span>
+                        <span>  {summaryPara2}  </span>
+                    </div>
+                    <div className = "Pic">
+                        <img className = "ProfileImage" src = {require('../Utility/Database/Pic.jpg')} alt = ""/>
+                    </div>
                 </div>
             </div>
-            <img className = "Pic" src = {require('../Utility/Database/Pic.jpg')} alt = ""/>
         </div>
     )
 }

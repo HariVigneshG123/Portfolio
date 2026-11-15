@@ -1,16 +1,24 @@
 .App {
   margin-left: 2%;
   margin-right: 5%;
-  width: 80%;
-  overflow-x: auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif /*'Courier New', Courier, monospace;*/
+  width: 95%;
+  /* overflow-x: auto; */
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .Appovrl {
   display: flex;
   flex-direction: row;
+  align-items: flex-start; /* lets the sidebar stick instead of stretching to full content height */
+  min-height: 100vh;
 }
 
 .AppSideBar {
-  width: 20%;
+  position: sticky;
+  top: var(--titlebar-height);
+  height: calc(100vh - var(--titlebar-height));
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

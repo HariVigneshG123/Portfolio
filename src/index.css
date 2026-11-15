@@ -1,13 +1,28 @@
+:root {
+  /* TitleBar: 5vh content + 1rem top/bottom padding */
+  --titlebar-height: calc(5vh + 2rem);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Keep section headings visible below the sticky title bar when jumped to */
+.NavSection {
+  scroll-margin-top: var(--titlebar-height);
 }

@@ -1,11 +1,13 @@
 .sideRibbon {
-    height: 100%;
+    height: 90%;
     margin: 5%;
     margin-top: 15%;
     box-shadow: rgba(0, 0, 0, 0.10) 2px 0px 0px;
     overflow:visible;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .sideRibbonImgs {

@@ -5,7 +5,7 @@ import HistDB from '../Utility/Database/EduExp.json'
 
 export default function Education() {
   return (
-    <div>
+    <section id="education" className="NavSection">
     <h2> Education </h2>
     <div className='education'>
         {/* <PageTile institute = "GMU" year = "2021 - 2023" skills = "a, b, c"/>
@@ -13,6 +13,6 @@ export default function Education() {
         <PageTile val = {HistDB["George Mason University"]}/>
         <PageTile val = {HistDB["Thiagarajar College of Engineering"]}/>
     </div>
-    </div>
+    </section>
   )
 }
