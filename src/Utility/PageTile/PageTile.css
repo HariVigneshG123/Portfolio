@@ -26,10 +26,16 @@
     flex-shrink: 0;
 }
 
-/* .TileImg {
-    height: 5vh;
-    width: 5vw;
-} */
+/* Tile image scales with the screen but stays between 48px and 180px wide,
+   and never taller than the tile, so the text beside it keeps its space */
+.TileImg {
+    width: clamp(48px, 12vw, 180px);
+    height: auto;
+    max-height: 80%;
+    object-fit: contain;
+    flex-shrink: 0;
+    align-self: center;
+}
 
 .TileOvrContent {
     display: flex;
@@ -39,4 +45,18 @@
 .TileTxtContent {
     display: flex;
     flex-direction: column;
+}
+/* Narrow phones: one tile per row, using the full width */
+@media (max-width: 499px) {
+    .work,
+    .education,
+    .projects {
+        flex-direction: column;
+    }
+
+    .Tile,
+    .TileExpanded {
+        width: auto;
+        margin: 0.5rem 0;
+    }
 }

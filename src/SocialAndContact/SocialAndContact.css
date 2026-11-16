@@ -34,3 +34,34 @@ textarea {
 input {
     height: 3vh;
 }
+
+
+/* Social links: hidden on wide screens, where the sidebar shows them */
+.SocialSection {
+    display: none;
+}
+
+.SocialLinks {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.SocialIcon {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 699px) {
+    .SocialSection {
+        display: block;
+        /* Room below the icons so they don't sit on the very bottom edge,
+           plus the iPhone home-indicator area */
+        padding-bottom: calc(3rem + env(safe-area-inset-bottom));
+    }
+
+    /* The 60vh minimum leaves big blank gaps on phones; size to the form instead */
+    .ContactForm {
+        min-height: auto;
+        margin: 1.5rem 0;
+    }
+}

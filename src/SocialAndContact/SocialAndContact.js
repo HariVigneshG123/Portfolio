@@ -25,9 +25,18 @@ export default function SocialAndContact() {
                 <button className='ContactFormButton' onClick={handleClear}>Clear</button>
             </div>
         </form>
-        {/* <h2>Social</h2>
-        <p>harivigneshguru@gmail.com</p>
-        <p>https://www.linkedin.com/in/harivignesh-gomathi-sankara-guru-512756169/</p> */}
+        {/* Shown only on small screens, where the sidebar is hidden (see SocialAndContact.css) */}
+        <div className="SocialSection">
+            <h2>Social</h2>
+            <div className="SocialLinks">
+                <a href = "https://www.linkedin.com/in/harivignesh-gomathi-sankara-guru-512756169/" target="_blank" rel="noopener noreferrer">
+                    <img className = "SocialIcon" src = {require('../Utility/Database/linkedin.png')} alt = "LinkedIn"/>
+                </a>
+                <a href = "https://github.com/HariVigneshG123" target="_blank" rel="noopener noreferrer">
+                    <img className = "SocialIcon" src = {require('../Utility/Database/github.png')} alt = "GitHub"/>
+                </a>
+            </div>
+        </div>
     </section>
   )
 }

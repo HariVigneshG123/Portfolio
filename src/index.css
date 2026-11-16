@@ -1,5 +1,5 @@
 :root {
-  /* TitleBar: 5vh content + 1rem top/bottom padding */
+  /* Fallback; TitleBar.js overwrites this with the measured height */
   --titlebar-height: calc(5vh + 2rem);
 }
 
